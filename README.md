@@ -11,10 +11,10 @@ POWERSHELL_UPDATECHECK=Off
 
 This is to stop network telemetry and version control checking.
 
-For `Debian` and `RPM` based systems, use [package.sh](package.sh)
+For `Debian` and `RPM` based systems, use [package.sh](linux/package.sh)
 
-For `Arch Linux` use [PKGBUILD](PKGBUILD) with `makepkg`
+For `Arch Linux` use [PKGBUILD](pacman/PKGBUILD) with `makepkg`
 
-For `Alpine` use [APKBUILD](APKBUILD) with `abuild`
+For `Alpine` use [APKBUILD](alpine/APKBUILD) with `abuild`
 
 These scripts create packages. Install the packages to add the configuration.
